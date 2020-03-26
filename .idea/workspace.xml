@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6078fc1e-6638-4920-b0f7-6ee1825c6830" name="Default Changelist" comment="" />
+    <list default="true" id="6078fc1e-6638-4920-b0f7-6ee1825c6830" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +17,11 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZfR6pflEbQdoQL4bk8MHRUCBFI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,8 +30,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -54,5 +62,27 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Go_Modules_(vgo)" timestamp="1585232170375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Go_Modules_(vgo)/0.0.1366.728@0.0.1366.728" timestamp="1585232170375" />
+    <state width="1323" height="341" key="GridCell.Tab.0.bottom" timestamp="1585232086561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="341" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585232086561" />
+    <state width="1323" height="341" key="GridCell.Tab.0.center" timestamp="1585232086560">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="341" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585232086560" />
+    <state width="1323" height="341" key="GridCell.Tab.0.left" timestamp="1585232086560">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="341" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585232086560" />
+    <state width="1323" height="341" key="GridCell.Tab.0.right" timestamp="1585232086560">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="341" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585232086560" />
   </component>
 </project>
