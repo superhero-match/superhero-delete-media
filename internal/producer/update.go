@@ -28,8 +28,6 @@ import (
 func(p *Producer) DeleteProfilePicture(pp model.ProfilePicture) error {
 	var sb bytes.Buffer
 
-	key := pp.SuperheroID
-
 	err := json.NewEncoder(&sb).Encode(pp)
 	if err != nil {
 		return err
@@ -38,7 +36,6 @@ func(p *Producer) DeleteProfilePicture(pp model.ProfilePicture) error {
 	err = p.Producer.WriteMessages(
 		context.Background(),
 		kafka.Message{
-			Key:   []byte(key),
 			Value: sb.Bytes(),
 		},
 	)
