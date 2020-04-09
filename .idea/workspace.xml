@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6078fc1e-6638-4920-b0f7-6ee1825c6830" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/config/config.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZfR6pflEbQdoQL4bk8MHRUCBFI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,7 +51,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build github.com/superhero-match/superhero-delete-media/cmd/api">
     <configuration name="go build github.com/superhero-match/superhero-delete-media/cmd/api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="superhero-delete-media" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -54,9 +61,19 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/superhero-match/superhero-delete-media/cmd/health" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="superhero-delete-media" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/health/main.go" />
+      <package value="github.com/superhero-match/superhero-delete-media/cmd/health" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build github.com/superhero-match/superhero-delete-media/cmd/api" />
+        <item itemvalue="Go Build.go build github.com/superhero-match/superhero-delete-media/cmd/health" />
       </list>
     </recent_temporary>
   </component>
@@ -68,21 +85,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Go_Modules_(vgo)/0.0.1366.728@0.0.1366.728" timestamp="1585232170375" />
-    <state width="1323" height="341" key="GridCell.Tab.0.bottom" timestamp="1585232086561">
+    <state width="1323" height="341" key="GridCell.Tab.0.bottom" timestamp="1586411648159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="341" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585232086561" />
-    <state width="1323" height="341" key="GridCell.Tab.0.center" timestamp="1585232086560">
+    <state width="1323" height="341" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586411648159" />
+    <state width="1323" height="341" key="GridCell.Tab.0.center" timestamp="1586411648158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="341" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585232086560" />
-    <state width="1323" height="341" key="GridCell.Tab.0.left" timestamp="1585232086560">
+    <state width="1323" height="341" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586411648158" />
+    <state width="1323" height="341" key="GridCell.Tab.0.left" timestamp="1586411648158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="341" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585232086560" />
-    <state width="1323" height="341" key="GridCell.Tab.0.right" timestamp="1585232086560">
+    <state width="1323" height="341" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586411648158" />
+    <state width="1323" height="341" key="GridCell.Tab.0.right" timestamp="1586411648159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="341" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585232086560" />
+    <state width="1323" height="341" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586411648159" />
   </component>
 </project>

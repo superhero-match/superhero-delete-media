@@ -6,14 +6,14 @@ run:
 	./bin/main
 
 build:
-	CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-extldflags "-static"' -o bin/main cmd/chat/main.go
+	CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-extldflags "-static"' -o bin/main cmd/api/main.go
 	chmod +x bin/main
 
 dkb:
 	docker build -t superhero-delete-media .
 
 dkr:
-	docker run --rm -p "7200:7200" superhero-delete-media
+	docker run -p "7200:7200" -p "8150:8150" superhero-delete-media
 
 launch: dkb dkr
 
