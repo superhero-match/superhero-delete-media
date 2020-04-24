@@ -43,7 +43,7 @@ func (ctl *Controller) Delete(c *gin.Context) {
 	err = ctl.Service.DeleteProfilePicture(req.SuperheroID, req.Position, t.Format(ctl.Service.TimeFormat))
 	if checkError(err, c) {
 		ctl.Service.Logger.Error(
-			"failed to bind JSON to value of type Request",
+			"failed to delete profile picture",
 			zap.String("err", err.Error()),
 			zap.String("time", time.Now().UTC().Format(ctl.Service.TimeFormat)),
 		)
@@ -51,7 +51,7 @@ func (ctl *Controller) Delete(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusInternalServerError, gin.H{
+	c.JSON(http.StatusOK, gin.H{
 		"status": http.StatusOK,
 	})
 }
